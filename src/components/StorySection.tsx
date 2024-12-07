@@ -4,7 +4,7 @@ import gsap from "gsap"
 import RoundedCorners from "./RoundedCorners"
 import Button from "./Button"
 
-const Story = () => {
+const StorySection = () => {
     const frameRef = useRef<HTMLImageElement>(null)
 
     const handleMouseLeave = () => {
@@ -98,4 +98,4 @@ const Story = () => {
   )
 }
 
-export default Story
+export default StorySection

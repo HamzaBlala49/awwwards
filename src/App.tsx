@@ -4,7 +4,7 @@ import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import Contact from "./components/Contact"
-import Story from "./components/story"
+import StorySection from "./components/StorySection"
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
       <Hero />
       <About />
       <Features />
-      <Story/>
+      <StorySection/>
       <Contact/>
       <Footer/>
 
